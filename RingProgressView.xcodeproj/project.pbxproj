@@ -14,6 +14,8 @@
 		A8EB38281AB036D800AA5D93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8EB38271AB036D800AA5D93 /* Images.xcassets */; };
 		A8EB382B1AB036D800AA5D93 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8EB38291AB036D800AA5D93 /* LaunchScreen.xib */; };
 		A8EB38371AB036D800AA5D93 /* RingProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EB38361AB036D800AA5D93 /* RingProgressViewTests.m */; };
+		A8EB38421AB0378900AA5D93 /* RingProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EB38411AB0378900AA5D93 /* RingProgressView.m */; };
+		A8EB38461AB0818C00AA5D93 /* time_horizhon_thumb_image.png in Resources */ = {isa = PBXBuildFile; fileRef = A8EB38451AB0818C00AA5D93 /* time_horizhon_thumb_image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		A8EB38301AB036D800AA5D93 /* RingProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8EB38351AB036D800AA5D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8EB38361AB036D800AA5D93 /* RingProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RingProgressViewTests.m; sourceTree = "<group>"; };
+		A8EB38401AB0378900AA5D93 /* RingProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingProgressView.h; sourceTree = "<group>"; };
+		A8EB38411AB0378900AA5D93 /* RingProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingProgressView.m; sourceTree = "<group>"; };
+		A8EB38451AB0818C00AA5D93 /* time_horizhon_thumb_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time_horizhon_thumb_image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,8 @@
 				A8EB38271AB036D800AA5D93 /* Images.xcassets */,
 				A8EB38291AB036D800AA5D93 /* LaunchScreen.xib */,
 				A8EB381A1AB036D800AA5D93 /* Supporting Files */,
+				A8EB38401AB0378900AA5D93 /* RingProgressView.h */,
+				A8EB38411AB0378900AA5D93 /* RingProgressView.m */,
 			);
 			path = RingProgressView;
 			sourceTree = "<group>";
@@ -96,6 +103,7 @@
 		A8EB381A1AB036D800AA5D93 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A8EB38451AB0818C00AA5D93 /* time_horizhon_thumb_image.png */,
 				A8EB381B1AB036D800AA5D93 /* Info.plist */,
 				A8EB381C1AB036D800AA5D93 /* main.m */,
 			);
@@ -199,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8EB38461AB0818C00AA5D93 /* time_horizhon_thumb_image.png in Resources */,
 				A8EB38261AB036D800AA5D93 /* Main.storyboard in Resources */,
 				A8EB382B1AB036D800AA5D93 /* LaunchScreen.xib in Resources */,
 				A8EB38281AB036D800AA5D93 /* Images.xcassets in Resources */,
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8EB38231AB036D800AA5D93 /* ViewController.m in Sources */,
+				A8EB38421AB0378900AA5D93 /* RingProgressView.m in Sources */,
 				A8EB38201AB036D800AA5D93 /* AppDelegate.m in Sources */,
 				A8EB381D1AB036D800AA5D93 /* main.m in Sources */,
 			);
@@ -412,6 +422,7 @@
 				A8EB383C1AB036D800AA5D93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8EB383D1AB036D800AA5D93 /* Build configuration list for PBXNativeTarget "RingProgressViewTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +431,7 @@
 				A8EB383F1AB036D800AA5D93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
